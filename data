@@ -1,0 +1,7 @@
+echo "# LA450" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/wliu99/LA450.git
+git push -u origin main
